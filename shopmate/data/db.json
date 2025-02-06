@@ -1,25 +1,15 @@
 {
     "products": [
-      { "id": 1, "name": "Wireless Mouse", "price": 25.99, "in_stock": false },
-      { "id": 2, "name": "Mechanical Keyboard", "price": 79.99, "in_stock": false },
-      { "id": 3, "name": "USB-C Hub", "price": 34.50, "in_stock": false },
-      { "id": 4, "name": "Gaming Chair", "price": 199.99, "in_stock": false },
-      { "id": 5, "name": "27-inch Monitor", "price": 299.99, "in_stock": false },
-      { "id": 6, "name": "Bluetooth Headphones", "price": 59.99, "in_stock": false },
-      { "id": 7, "name": "Smartphone Stand", "price": 12.99, "in_stock": false },
-      { "id": 8, "name": "Portable SSD", "price": 89.99, "in_stock": false },
-      { "id": 9, "name": "Laptop Cooling Pad", "price": 22.99, "in_stock": false },
-      { "id": 10, "name": "Wireless Earbuds", "price": 49.99, "in_stock": false },
-      { "id": 11, "name": "Smartwatch", "price": 129.99, "in_stock": false },
-      { "id": 12, "name": "4K Webcam", "price": 89.99, "in_stock": false },
-      { "id": 13, "name": "Graphic Tablet", "price": 159.99, "in_stock": false },
-      { "id": 14, "name": "External Hard Drive", "price": 69.99, "in_stock": false },
-      { "id": 15, "name": "VR Headset", "price": 249.99, "in_stock": false },
-      { "id": 16, "name": "Desk Lamp", "price": 39.99, "in_stock": false },
-      { "id": 17, "name": "Mechanical Pencil", "price": 4.99, "in_stock": false },
-      { "id": 18, "name": "Ergonomic Mouse Pad", "price": 9.99, "in_stock": false },
-      { "id": 19, "name": "Power Bank", "price": 45.99, "in_stock": false },
-      { "id": 20, "name": "Wireless Charger", "price": 29.99, "in_stock": false }
+      { "id": 4, "name": "Ergonomically Designed Gaming Chair with Adjustable Armrests and Lumbar Support", "price": 199.99, "in_stock": true },
+      { "id": 5, "name": "27-inch 4K Ultra HD Monitor with High Refresh Rate and Built-in Speakers", "price": 299.99, "in_stock": true },
+      { "id": 6, "name": "Wireless Bluetooth Noise Cancelling Headphones with Built-in Microphone and 20-Hour Battery Life", "price": 59.99, "in_stock": true },
+      { "id": 11, "name": "Smartwatch with Heart Rate Monitor, GPS Tracking, and Multiple Fitness Modes", "price": 129.99, "in_stock": false },
+      { "id": 12, "name": "4K Webcam with Auto-Focus, Built-in Microphone, and Adjustable Viewing Angles for Streaming and Video Calls", "price": 89.99, "in_stock": true },
+      { "id": 13, "name": "Graphic Tablet with Pressure Sensitivity, Touchscreen Interface, and Customizable Shortcuts for Digital Art Creation", "price": 159.99, "in_stock": true },
+      { "id": 14, "name": "External Hard Drive with 2TB Storage Capacity, USB 3.0 Compatibility, and Shockproof Design", "price": 69.99, "in_stock": true },
+      { "id": 15, "name": "Virtual Reality Headset with Immersive 360-Degree Visuals, Adjustable Fit, and Integrated Audio System", "price": 249.99, "in_stock": false },
+      { "id": 16, "name": "Desk Lamp with Adjustable Brightness, Touch Control, and Built-in USB Charging Port", "price": 39.99, "in_stock": true },
+      { "id": 18, "name": "Ergonomic Mouse Pad with Memory Foam Cushioning for Wrist Support and Non-Slip Base", "price": 9.99, "in_stock": true }
     ]
   }
   

@@ -1,0 +1,78 @@
+.btns{
+    display: flex;
+    margin: 12px auto;
+    justify-content: space-between;
+    width: 1600px;
+}
+
+button{
+   padding: 15px 25px;
+   margin-right: 47px;
+   border-radius: 9px;
+   font-size: 19px;
+   font-weight: bold;
+   background-color: rgb(75, 58, 192);
+   color: rgb(186, 192, 198);
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0 1.4rem 3.8rem rgba(0,0,0,0.1);
+    width: 1200px;
+    margin: 40px auto;
+    height: 200px;
+   
+}
+.id{
+    color: rgb(23, 23, 23);
+    font-size: 26px;
+    border-radius: 12%;
+    background-color: rgb(117, 52, 177);
+    padding: 3px 18px;
+  
+    
+}
+.name{
+    font-size: 26px;
+    font-weight: 23px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure enough space */
+    padding: 10px;
+}
+
+.instock::before {
+    content: "In Stock"; /* Adds the text inside the box */
+    color: rgb(23, 23, 23);
+    font-size: 26px;
+    background-color: rgb(52, 177, 102);
+    padding: 3px 18px;
+    display: inline-block;
+    border-radius: 7px;
+}
+.unvailable::before {
+    content: "unvailable"; 
+    color: rgb(23, 23, 23);
+    font-size: 26px;
+    background-color: rgb(232, 38, 20);
+    padding: 3px 18px;
+    display: inline-block;
+    border-radius: 7px;
+
+}
+
+.price{
+    font-size: 54px;
+}
+.dollor{
+    font-size: 24px;
+}
+
+
+

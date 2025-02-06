@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="App">
       <h1>
-        < Products/>
+        Products
       </h1>  
+        < Products/>
     </div>
   );
 }
