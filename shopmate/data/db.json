@@ -1,0 +1,25 @@
+{
+    "products": [
+      { "id": 1, "name": "Wireless Mouse", "price": 25.99, "in_stock": false },
+      { "id": 2, "name": "Mechanical Keyboard", "price": 79.99, "in_stock": false },
+      { "id": 3, "name": "USB-C Hub", "price": 34.50, "in_stock": false },
+      { "id": 4, "name": "Gaming Chair", "price": 199.99, "in_stock": false },
+      { "id": 5, "name": "27-inch Monitor", "price": 299.99, "in_stock": false },
+      { "id": 6, "name": "Bluetooth Headphones", "price": 59.99, "in_stock": false },
+      { "id": 7, "name": "Smartphone Stand", "price": 12.99, "in_stock": false },
+      { "id": 8, "name": "Portable SSD", "price": 89.99, "in_stock": false },
+      { "id": 9, "name": "Laptop Cooling Pad", "price": 22.99, "in_stock": false },
+      { "id": 10, "name": "Wireless Earbuds", "price": 49.99, "in_stock": false },
+      { "id": 11, "name": "Smartwatch", "price": 129.99, "in_stock": false },
+      { "id": 12, "name": "4K Webcam", "price": 89.99, "in_stock": false },
+      { "id": 13, "name": "Graphic Tablet", "price": 159.99, "in_stock": false },
+      { "id": 14, "name": "External Hard Drive", "price": 69.99, "in_stock": false },
+      { "id": 15, "name": "VR Headset", "price": 249.99, "in_stock": false },
+      { "id": 16, "name": "Desk Lamp", "price": 39.99, "in_stock": false },
+      { "id": 17, "name": "Mechanical Pencil", "price": 4.99, "in_stock": false },
+      { "id": 18, "name": "Ergonomic Mouse Pad", "price": 9.99, "in_stock": false },
+      { "id": 19, "name": "Power Bank", "price": 45.99, "in_stock": false },
+      { "id": 20, "name": "Wireless Charger", "price": 29.99, "in_stock": false }
+    ]
+  }
+  
