@@ -1,22 +1,23 @@
-import React, { useEffect ,useCallback} from 'react'
+import React from 'react'
 import { useState } from 'react';
 import "./Product.css"; 
+import useFecth from './hooks/useFecth';
 
 
 
 const Products = () => {
-    const[products,setProducts] = useState([])
     const[url,setUrl] = useState("http://localhost:8000/products")
+    const {data:products,loading,error} = useFecth(url)
     
-    const fetchProduct = useCallback(async () =>{
-        const response = await fetch(url)
-        const data = await response.json();
-        setProducts(data);
-    },[url]);
+    // const fetchProduct = useCallback(async () =>{
+    //     const response = await fetch(url)
+    //     const data = await response.json();
+    //     setProducts(data);
+    // },[url]);
 
-    useEffect(()=>{
-        fetchProduct();
-    },[fetchProduct])
+    // useEffect(()=>{
+    //     fetchProduct();
+    // },[fetchProduct])
 
   return (
    <section>
@@ -27,7 +28,9 @@ const Products = () => {
        </div>
        <div></div>
        </div>
-    {products.map((product)=>{
+    {loading && <p>loading the products ...</p>}
+    {error && <p>{error}</p>}
+    {products && products.map((product)=>{
         return( 
            
             
