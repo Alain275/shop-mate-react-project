@@ -35,28 +35,28 @@ header{
     align-items: center;
 }
 
-.light{
+.lighti{
     width: 25px;
     height: 25px;
     border: 0.1px solid rgb(232, 232, 232);
     border-radius: 50%;
     color: rgb(110, 110, 110);
 }
-.medium{
+.mediam{
     width: 25px;
     height: 25px;
     border: 0.1px solid rgb(232, 232, 232);
     border-radius: 50%;
     background-color: rgb(222, 222, 222);
 }
-.dark{
+.dak{
     width: 25px;
     height: 25px;
     border: 0.1px solid rgb(232, 232, 232);
     border-radius: 50%;
     background-color:rgb(35, 35, 35) ;
 }
-.g-1{
+.g-11{
     width: 25px;
     height: 25px;
     border: 0.1px solid rgb(232, 232, 232);
@@ -64,24 +64,19 @@ header{
     background-color:rgb(77, 77, 181) ;
 }
 
-.g-2{
+.g-22{
     width: 25px;
     height: 25px;
     border: 0.1px solid rgb(232, 232, 232);
     border-radius: 50%;
     background: linear-gradient(to right, rgb(64, 64, 206), rgb(229, 97, 97));
 }
-.g-3{
+.g-33{
     width: 25px;
     height: 25px;
     border: 0.1px solid rgb(232, 232, 232);
     border-radius: 50%;
     background: linear-gradient(to right, rgb(2, 2, 198), rgb(175, 2, 2));
 }
-.active{
-    width: 50px;
-    height: 50px;
-    border: 0.1px solid rgb(232, 232, 232);
-    border-radius: 50%;
-    background-color: rgb(222, 222, 222);  
-}
+
+
