@@ -58,7 +58,7 @@ function Header(props) {
             </ul>
             </div>
         </div>
-        </nav>
+        </nav> 
 
     </header>
   )
