@@ -6,15 +6,15 @@ import PagesNotFound from "../pages/PagesNotFound";
 
 export const AllRoutes = () => {
   return (
-    <div className="dark:bg-slate-800">
+    <div className="dark:bg-darkbg">
         <Routes>
-            <Route path="/" element={<MovieList/>}/>
+            <Route path="/" element={<MovieList apiPath="movie/now_playing"/>}/>
             <Route path="movie/:id" element={<MovieDetail/>}/>
-            <Route path="movies/popular" element={<MovieList/>}/>
-            <Route path="movies/top" element={<MovieList/>}/>
-            <Route path="movies/upcoming" element={<MovieList/>}/>
-            <Route path="search" element={<Seach/>}/>
-            <Route path="*" element={<PagesNotFound/>}/>
+            <Route path="movies/popular" element={<MovieList apiPath="movie/popular"/>}/>
+            <Route path="movies/top" element={<MovieList apiPath="movie/top_rated"/>}/>
+            <Route path="movies/upcoming" element={<MovieList apiPath="movie/upcoming"/>}/>
+            <Route path="search" element={<Seach  apiPath="search/movie"/>}/>
+            <Route path="*" element={<PagesNotFound />}/>
         </Routes>      
     </div>
   )

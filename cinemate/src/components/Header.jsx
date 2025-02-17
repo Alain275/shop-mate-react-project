@@ -2,6 +2,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 
+import Logo from '../assets/images/log.webp';
+
+
  const Header = () => {
   const [hidden, setHidden] = useState(true);
   const [darkMode, setDarkMode] = useState( JSON.parse(localStorage.getItem("darkMode")) || false);
@@ -30,10 +33,11 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 
   return (
     <header>      
+      
       <nav className="bg-white border-b-2 border-gray-200 px-2 sm:px-4 py-2 dark:bg-gray-900 dark:border-b-1 dark:border-gray-900">
         <div className="flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
-              <img src="" className="mr-2 h-8 sm:h-9" alt="Cinemate Logo" />
+              <img src={Logo} className="mr-2 h-8 sm:h-9" alt="Cinemate Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cinemate</span>
           </Link>
 
