@@ -5,9 +5,9 @@ function MovieList() {
 
   useEffect(()=>{
     async function feachMovies() {
-      const response = await fetch("https://api.themoviedb.org/3/movie/now_playing?api_key=b80d59c33d6d57ed9c7e3713f91c188a")  
+      const response = await fetch("https://api.themoviedb.org/3/movie/top_rated?api_key=b80d59c33d6d57ed9c7e3713f91c188a")  
       const data =  await response.json();
-      setMovies(data);
+      setMovies(data.results);
     }
     feachMovies();
   },[])
@@ -15,8 +15,9 @@ function MovieList() {
     <main>
       <section className="max-w-7xl mx-auto my- py-7">
         <div className="flex justify-start flex-wrap">
-          {movies.map(()=>(
-            <Card />
+          {movies.map((movie)=>(
+            <Card key={movie.id} movie={movie} />
+
           )
           )}
         </div>
