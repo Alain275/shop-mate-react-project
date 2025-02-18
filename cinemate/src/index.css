@@ -8,3 +8,7 @@ main{
     min-height: 90vh;
     padding: 10px;
 }
+
+.logo{
+    border-radius: 2px;
+}
